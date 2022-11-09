@@ -1,0 +1,253 @@
+ *{
+    padding: 0;
+    margin: 0;
+    /* font-family: 'Josefin sans',sans-serif; */
+    box-sizing:border-box;
+ }
+ .first{
+    height:60vh;
+    width:100%;
+    background-color:rgb(77, 31, 119);
+    /* background-image: url(pexels-daniel-putzer-633409.jpg); */
+    background-position:top;
+
+ }
+ nav{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    margin-left: 27%;
+    padding-top: 40px;
+    padding-left:7%;
+    padding-right: 8%;
+
+ }
+ /*list*/
+ nav ul li {
+    display: inline-block;
+    padding: 8px 25px;
+    /* color:rgb(40, 147, 197); */
+    
+ }
+ nav ul li a{
+    color:rgb(194, 24, 24);
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    cursor: pointer;
+    font-family: 'Merienda';
+    font-size: 20px;
+    
+ }
+ nav ul li a:hover{
+    color:#1b08bd;
+    transition: .3s;
+    text-decoration: underline;
+}
+ /*NAME*/
+ h1{
+    font-family: 'Aclonica';
+    /* font-family: 'Allerta Stencil'; */
+    margin-top:4%;
+    margin-left:26%;
+    font-size: 55px;
+    font-weight: 100;
+    shape-margin:2px;
+    color: rgb(51, 144, 167);
+ }
+ /*about me logo*/
+ 
+ /* h2{
+    margin-left: 50%;
+    margin-top: -27%;
+
+ } */
+ /*icons*/
+.social{
+    margin-top:30px;
+    margin-left: 2%;
+    display:flex;
+    justify-content: center;
+   
+}
+.social a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(163, 21, 63);
+    border-radius: 50%;
+    margin:22px;
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+.social a:hover{
+    transform: scale(1.3);
+    transition: .3s;
+}
+ /*about text*/
+ #about{
+    width:100%;
+    height:70vh;
+    padding:70px 0px;
+    background-color:rgb(118, 48, 184);
+    scrollbar-shadow-color: aqua;
+ }
+/*image*/
+ #about img{
+    box-shadow: black;
+    margin-top: -70px;
+    height: 350px;
+    width: 350px;
+    border-radius: 200px;
+    
+    border:1px solid skyblue
+ }
+ .abouttxt{
+    width: 550px;
+ }
+ .main{
+    width:1130px;
+    max-width:95%;
+    margin:0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+ }
+ /*about me logo*/
+ .abouttxt h2{
+    color:crimson;
+    font-family: 'Aclonica';
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    font-size: 45px;
+    text-decoration: underline;
+ }
+ /*about matter*/
+ .abouttxt p{
+    color:rgb(50, 214, 214);
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-size:20px;
+    margin-bottom: 20px;
+    font-family: 'Merienda';
+ }
+
+ .abouttxt ul {
+    /* display:block; */
+    color:rgb(3, 15, 29);
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-size:20px;
+    margin-bottom: 45px;
+    margin-left: 3%;
+    font-family: 'Merienda';
+ }
+ .abouttxt ul li{
+    list-style-type:square;
+    font-size: 20px;
+    padding-bottom: 10px;
+    color:rgb(50, 214, 214);
+ }
+ /*lets talk  button*/
+
+ /*contact*/
+ #contactme{
+    font-weight: bold;
+    font-family:'Aclonica';
+    font-size: 20px;
+    background-color:rgb(79, 38, 117);
+    padding-top:3%;
+    padding-bottom:3%;
+    margin-bottom: 1px;
+ }
+ #contactme p{
+   margin-left:37%;
+   font-size: 35px;
+ }
+ .contact form{
+    display:grid;
+    width:380px;
+    max-width:100%;
+    position:relative;
+    padding-left: 5%;
+    margin-left: 30%;
+ }
+.contact form input{
+    display:inline-block;
+    width:130%;
+    height:8.2vh;
+    font-size:16px;
+    padding:14px 130px 14px 15px;
+    margin-bottom:35px;
+    border-radius: 100px;
+    border:2px solid crimson;
+    
+    background-color: bisque;
+}
+ footer{
+    position: relative;
+    width:100%;
+    height:50px;
+    background-color:rgb(107, 36, 173);
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-top: -6px;
+    justify-content: center;
+    /* border-color: black; */
+ }/*send messGE*/
+ .contact{
+    margin-top:3%;
+}
+button {
+    display: inline-block;
+    text-decoration:none;
+    background-color: crimson;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 10px;
+     border-radius: 30px; 
+    transition: .4s;
+    margin-left: 40.5%;
+
+ }
+ button a{
+   color:#e0c0c8;
+   text-decoration: none;
+   font-weight: bold;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 25px;
+ }
+button:hover{
+    /* background-color:transparent; */
+    border: 2px solid  crimson;
+    box-shadow: 2px;
+    cursor:pointer;
+    transform: scale(1.1);
+}*/
+ /*footer*/
+
+ footer i{
+    
+    display: flex;
+    align-items: center;
+    background: transparent;
+    margin:4px;
+    text-decoration: none;
+    font-size: 1px;
+}
+ footer p{
+    /* font-family:Georgia, 'Times New Roman', Times, serif; */
+    color:rgb(231, 229, 97);
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Copperplate,Copperplate Gothic Light, fantasy;
+    margin-bottom: 6%;
+    margin-right: 4%;
+    margin-top: 20px;
+    padding-top: 4%;
+ }
